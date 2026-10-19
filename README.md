@@ -1,11 +1,21 @@
-# devChronicles
+# dev-chronicles
 
-Personal development chronicles and notes.
+early express + mongodb backend experiments: admins, rooms and mail.
 
-## Setup
+## stack
 
-Clone the repository and install dependencies as needed for the project stack.
+express 5 · mongoose · jsonwebtoken · nodemailer
 
+## run locally
 
-## Consistency & Discipline
-This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
+needs node 20.6+.
+
+```bash
+npm install
+cp .env.example .env
+node --env-file=.env index.js
+```
+
+## env
+
+copy `.env.example` to `.env`.
